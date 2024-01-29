@@ -1,0 +1,11 @@
+<form action="/register" method="post"> 
+   {{ form }}
+   {% csrf_token %}
+   <input type="submit"/>
+</form> 
+{% for message in messages %}
+    <div class="alert alert-success">
+        <a class="close" href="#" data-dismiss="alert">x</a>
+           {{ message }}
+    </div>
+{% endfor %}
