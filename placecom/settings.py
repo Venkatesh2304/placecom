@@ -31,8 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    "crispy_forms",
-    "crispy_bootstrap4",
     "app",
     "django.contrib.admin",
     "django.contrib.auth",
@@ -42,8 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 ]
 
-CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
